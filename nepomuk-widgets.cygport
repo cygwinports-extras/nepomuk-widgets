@@ -8,4 +8,5 @@ SUMMARY="KDE Nepomuk UI library"
 
 PKG_NAMES="libnepomukwidgets4 libnepomukwidgets-devel"
 libnepomukwidgets4_CONTENTS="usr/bin/cygnepomukwidgets-4.dll usr/share/doc/"
+libnepomukwidgets_devel_REQUIRES="libkdecore-devel libnepomukcore-devel"
 libnepomukwidgets_devel_CONTENTS="usr/include/ usr/lib/"
