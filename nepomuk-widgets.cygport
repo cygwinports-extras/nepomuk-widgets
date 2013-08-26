@@ -1,0 +1,11 @@
+inherit kde4
+
+NAME="nepomuk-widgets"
+VERSION=4.10.5
+RELEASE=1
+CATEGORY="Libs"
+SUMMARY="KDE Nepomuk UI library"
+
+PKG_NAMES="libnepomukwidgets4 libnepomukwidgets-devel"
+libnepomukwidgets4_CONTENTS="usr/bin/cygnepomukwidgets-4.dll usr/share/doc/"
+libnepomukwidgets_devel_CONTENTS="usr/include/ usr/lib/"
